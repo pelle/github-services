@@ -7,6 +7,11 @@ Spec::Runner.configure do |config|
   config.mock_with :mocha
 end
 
+# Load a json fixture from the fixtures directory
+def load_fixture(name)
+  JSON.parse File.open(File.join(File.dirname(__FILE__),'fixtures',"#{name.to_s}.json")).read  
+end
+
 class ServiceRunner
   def initialize(service_name, data, payload)
     @service_name = service_name
