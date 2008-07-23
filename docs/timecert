@@ -1,0 +1,26 @@
+TimeCert
+========
+
+This service timestamps sha1 digests as a trusted third party.
+
+While GitHub provides timestamps as well. Together with TimeCert it provides two levels of independent impartial evidence of the existence of a commit. Which could be useful in IP protection both for OSS and private code.
+
+To see the time stamp do:
+
+http://timecert.org/{Hex Encoded SHA1}
+
+For an example see:
+
+http://timecert.org/8f40c3e677bcf5a58caabf209f321284d812fb0a
+
+For more info see:
+
+http://stakeventures.com/articles/2008/07/17/relaunching-timecert-a-trusted-third-party-time-stamping-service
+
+Developer Notes
+---------------
+
+data
+  (empty)
+payload
+  - refer to docs/github_payload

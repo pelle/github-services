@@ -1,4 +1,17 @@
-{"commits": [
-{"message": "Bump the version number, prep for release", "parents": [{"id": "29509556e1e453c690b693c2a0ffc77d458c4d08"}], "url": "http://github.com/Caged/gitnub/commit/8f40c3e677bcf5a58caabf209f321284d812fb0a", "author": {"name": "Justin Palmer", "email": "justin@activereload.net"}, "id": "8f40c3e677bcf5a58caabf209f321284d812fb0a", "committed_date": "2008-06-23T10:58:38-07:00", "authored_date": "2008-06-23T10:58:38-07:00", "tree": "78cf8577726d87ecbf6cf10c1f47d23f3a007499", "committer": {"name": "Justin Palmer", "email": "justin@activereload.net"}}, 
-{"message": "Fix refs menu so that it's in sync with view menu when swapping refs", "parents": [{"id": "4a916ac6620279c96523dfc3003d171cc8183933"}], "url": "http://github.com/Caged/gitnub/commit/29509556e1e453c690b693c2a0ffc77d458c4d08", "author": {"name": "Justin Palmer", "email": "justin@activereload.net"}, "id": "29509556e1e453c690b693c2a0ffc77d458c4d08", "committed_date": "2008-06-23T10:50:34-07:00", "authored_date": "2008-06-23T10:50:34-07:00", "tree": "c32364ef915d3594cb226162a8ee5cf303c50322", "committer": {"name": "Justin Palmer", "email": "justin@activereload.net"}}, 
-{"message": "Fix spelling mistake in github config", "parents": [{"id": "74cd84c5dc65def307b9f8043e0abff9ebdf3862"}], "url": "http://github.com/Caged/gitnub/commit/4a916ac6620279c96523dfc3003d171cc8183933", "author": {"name": "Scott Barron", "email": "scott@elitists.net"}, "id": "4a916ac6620279c96523dfc3003d171cc8183933", "committed_date": "2008-06-16T12:08:57-07:00", "authored_date": "2008-06-16T12:08:57-07:00", "tree": "ad4ab1ed55296831e1b9885bdd8bde8aa9e7f459", "committer": {"name": "Justin Palmer", "email": "justin@activereload.net"}}]}
+{"repository":{
+  "name":"grit","url":"http:\/\/github.com\/mojombo\/grit","owner":{"name":"mojombo","email":"tom@mojombo.com"}
+},
+"after":"a47fd41f3aa4610ea527dcc1669dfdb9c15c5425",
+"commits":{
+  "06f63b43050935962f84fe54473a7c5de7977325":{
+    "timestamp":"2007-10-10T00:11:02-07:00","message":"stub git call for Grit#heads test","removed":[],"added":[],"modified":["lib\/grit\/grit.rb","test\/helper.rb","test\/test_grit.rb"],"url":"http:\/\/github.com\/mojombo\/grit\/commit\/06f63b43050935962f84fe54473a7c5de7977325","author":{"name":"Tom Preston-Werner","email":"tom@mojombo.com"}
+  },
+  "5057e76a11abd02e83b7d3d3171c4b68d9c88480":{
+    "timestamp":"2007-10-10T00:18:20-07:00","message":"clean up heads test","removed":[],"added":[],"modified":["test\/test_grit.rb"],"url":"http:\/\/github.com\/mojombo\/grit\/commit\/5057e76a11abd02e83b7d3d3171c4b68d9c88480","author":{"name":"Tom Preston-Werner","email":"tom@mojombo.com"}
+  },
+  "a47fd41f3aa4610ea527dcc1669dfdb9c15c5425":{
+    "timestamp":"2007-10-10T00:50:39-07:00","message":"add more comments throughout","removed":[],"added":["lib\/grit\/commit.rb"],"modified":["lib\/grit.rb","lib\/grit\/grit.rb"],"url":"http:\/\/github.com\/mojombo\/grit\/commit\/a47fd41f3aa4610ea527dcc1669dfdb9c15c5425","author":{"name":"Tom Preston-Werner","email":"tom@mojombo.com"}
+  }
+},
+"ref":"refs\/heads\/master",
+"before":"4c8124ffcf4039d292442eeccabdeca5af5c5017"}
